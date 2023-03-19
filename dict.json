@@ -1,0 +1,923 @@
+[
+  {
+    "column": "Nombre",
+    "description": "Pregunta"
+  },
+  {
+    "column": "DIRECTORIO",
+    "description": ""
+  },
+  {
+    "column": "SECUENCIA_ENCUESTA",
+    "description": ""
+  },
+  {
+    "column": "SECUENCIA_P",
+    "description": ""
+  },
+  {
+    "column": "ORDEN",
+    "description": ""
+  },
+  {
+    "column": "LLAVE_HOGAR",
+    "description": ""
+  },
+  {
+    "column": "FEX_C",
+    "description": ""
+  },
+  {
+    "column": "P7570",
+    "title": "viaje_fuera_residencia",
+    "category": true,
+    "description": "¿Durante el mes pasado ...\nrealizó viajes, pasando mínimo\nuna noche fuera de su\nresidencia habitual? 1. Si 2. No",
+    "options": {
+     "1": "Si",
+     "2": "No"
+    }
+  },
+  {
+    "column": "P7571S1",
+    "title": "viaje_fuera_pais",
+    "category": true,
+    "description": "Estos viajes, ¿los realizó dentro\no fuera del país? 1. Si 2. No",
+    "options": {
+     "1": "Si",
+     "2": "No"
+    }
+  },
+  {
+    "column": "P7571S1A1",
+    "title": "n_viaje_fuera_pais",
+    "numeric": "true",
+    "description": "Estos viajes, ¿los realizó dentro\no fuera del país? Cuantos"
+  },
+  {
+    "column": "P7571S1A2",
+    "title": "gastos_antes_salir_pais",
+    "category": true,
+    "description": "Estos viajes, ¿los realizó dentro\no fuera del país? Fuera del país\n1. Si 2. No ¿En el último viaje\nrealizado fuera del país, incurrio\nen gastos de viaje antes de salir\ndel país?",
+    "options": {
+     "1": "Si",
+     "2": "No"
+    }
+  },
+  {
+    "column": "P7571S1A3",
+    "title": "n_gastos_antes_salir_pais",
+    "numeric": "true",
+    "description": "Estos viajes, ¿los realizó dentro\no fuera del país? ¿En cuánto\nestima el valor de estos gastos?"
+  },
+  {
+    "column": "P7571S2",
+    "title": "viaje_dentro_pais",
+    "category": true,
+    "description": "Estos viajes, ¿los realizó dentro\no fuera del país? Dentro del país\n1. Si 2. No",
+    "options": {
+     "1": "Si",
+     "2": "No"
+    }
+  },
+  {
+    "column": "P7571S2A1",
+    "title": "n_viaje_dentro_pais",
+    "numeric": "true",
+    "description": "Estos viajes, ¿los realizó dentro\no fuera del país? Dentro del país\n¿cuántos viajes?"
+  },
+  {
+    "column": "P7580",
+    "title": "motivo_viaje",
+    "category": true,
+    "description": "¿Cuál fue el motivo principal del\núltimo viaje que usted realizó, el\nmes pasado? 1. Negocios o\nmotivos profesionales 2.\nRecreación, vacaciones 3. Visita\na parientes o amigos\n4.Educacion y/o formacion 5.\nSalud y atencion medica 6.\nReligion, Peregrinaciones 7.\nCompras 8. Otro motivo, ¿cuál?",
+    "options": {
+     "1": "Negocios",
+     "2": "Recreación",
+     "3": "Visita",
+     "4": "Educación",
+     "5": "Salud",
+     "6": "Religión",
+     "7": "Compras",
+     "8": "Otro"
+    }
+  },
+  {
+    "column": "P7580S1",
+    "title": "acompanantes_viaje",
+    "category": true,
+    "description": "¿Cuál fue el motivo principal del\núltimo viaje que usted realizó, el\nmes pasado? El viaje lo realizó:\n1. Solo 2. Con otras personas del\nhogar compartiendo gastos 3.\nCon otras personas del hogar sin\ncompartir gastos 4. Con otras\npersonas que no son del hogar\ncompartiendo gastos 5. Con\notras personas que no son del\nhogar sin compartir gastos",
+    "options": {
+      "1": "Solo",
+      "2": "Con otras personas del hogar compartiendo gastos",
+      "3": "Con otras personas del hogar sin compartir gastos",
+      "4": "Con otras personas que no son del hogar compartiendo gastos",
+      "5": "Con otras personas que no son del hogar sin compartir gastos"
+    }
+  },
+  {
+    "column": "P7580S3",
+    "title": "motivo_viaje_reunion",
+    "category": true,
+    "description": "Si dentro de este motivo, usted\nasistió a reuniones, ¿de qué tipo\nde reunión se trató? a.\nConvención, reunión corporativa\no de negocios b. Congreso de\nasociación c. Feria o exposición\ncomercial d. Evento de incentivo\ne. Otra f. No asistió a reuniones",
+    "options": {
+      "1": "Convención, reunión corporativa o de negocios",
+      "2": "Congreso de asociación",
+      "3": "Feria o exposición comercial",
+      "4": "Evento de incentivo",
+      "5": "Otra",
+      "6": "No asistió a reuniones"
+    }
+  },
+  {
+    "column": "P7572",
+    "title": "viaticos",
+    "category": true,
+    "description": "En este último viaje por\nNegocios o motivos\nprofesionales recibió viáticos? 1.\nSi 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7572S1",
+    "title": "n_viaticos",
+    "numeric": "true",
+    "description": "En este último viaje por\nNegocios o motivos\nprofesionales recibió viáticos?\n¿Cuál fue el monto de estos\nviáticos? Valor $"
+  },
+  {
+    "column": "P7573S1",
+    "title": "departamento_destino",
+    "category": true,
+    "description": "¿Cuál fue su destino principal en\neste último viaje dentro del país?\nDepartamento"
+  },
+  {
+    "column": "P7573S2",
+    "title": "municipio_destino",
+    "category": true,
+    "description": "¿Cuál fue su destino principal en\neste último viaje dentro del país?\nMunicipio"
+  },
+  {
+    "column": "P7574S1",
+    "title": "segunda_vivienda",
+    "category": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Segunda vivienda 1. Si\n2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7574S1A1",
+    "title": "n_segunda_vivienda",
+    "numeric": "true",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Segunda vivienda No.\nNoches"
+  },
+  {
+    "column": "P7574S5",
+    "title": "vivienda_familiares",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda familiares o\namigos 1. Si 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7574S5A1",
+    "title": "n_vivienda_familiares",
+    "numeric": "true",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda familiares o\namigos No. Noches"
+  },
+  {
+    "column": "P7574S2",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? 1. Si 2. No"
+  },
+  {
+    "column": "P7574S2A1",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? No. Noches"
+  },
+  {
+    "column": "P7574S2A2",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Hotel / Aparta-hotel"
+  },
+  {
+    "column": "P1936",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Hotel / Aparta-hotel"
+  },
+  {
+    "column": "P1936S1",
+    "drop": true,
+    "title": "lugar_reserva_hotel",
+    "category": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Hotel / Aparta-hotel a.\nBooking b. Agora c. Kayak d.\nAirbnb e. Hoteles.com f. Trivago\ng. Travel h. Skyscanner i.\nHopper j. Página web del lugar\nde alojamiento k. Otro",
+    "options": {
+      "1": "Booking",
+      "2": "Agora",
+      "3": "Kayak",
+      "4": "Airbnb",
+      "5": "Hoteles.com",
+      "6": "Trivago",
+      "7": "Travel",
+      "8": "Skyscanner",
+      "9": "Hopper",
+      "10": "Página web del lugar de alojamiento",
+      "11": "Otro"
+    }
+  },
+  {
+    "column": "P7574S8",
+    "title": "vivienda_turistica",
+    "category": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda turística\n(apartamentos turísticos, casas\nparticulares) 1. Si 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7574S8A1",
+    "title": "n_vivienda_turistica",
+    "numeric": "true",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda turística\n(apartamentos turísticos, casas\nparticulares) No. Noches"
+  },
+  {
+    "column": "P7574S8A2",
+    "title": "registro_hospedaje_vivienda_turistica",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda turística\n(apartamentos turísticos, casas\nparticulares) 1. Si 2. No En el\nalojamiento le solicitaron\ninformación para diligenciar un\nregistro de hospedaje (tarjeta de\nregistro)",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P1937",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda turística\n(apartamentos turísticos, casas\nparticulares) 1. Si 2. No"
+  },
+  {
+    "column": "P1937S1",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda turística\n(apartamentos turísticos, casas\nparticulares) a. Booking b. Agora\nc. Kayak d. Airbnb e.\nHoteles.com f. Trivago g. Travel\nh. Skyscanner i. Hopper j. Página\nweb del lugar de alojamiento k.\nOtro ¿cuál?"
+  },
+  {
+    "column": "P7574S4",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? 1. Si 2. No"
+  },
+  {
+    "column": "P7574S4A1",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? No. Noches"
+  },
+  {
+    "column": "P7574S4A2",
+    "title": "centro_vacacional",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Centro vacacional 1. Si\n2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P1938",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Centro vacacional 1. Si\n2. No"
+  },
+  {
+    "column": "P1938S1",
+    "drop": true,
+    "title": "lugar_reserva_centro_vacacional",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Centro vacacional a.\nBooking b. Agora c. Kayak d.\nAirbnb e. Hoteles.com f. Trivago\ng. Travel h. Skyscanner i.\nHopper j. Página web del lugar\nde alojamiento k. Otro ¿cuál?",
+    "options": {
+      "1": "Booking",
+      "2": "Agora",
+      "3": "Kayak",
+      "4": "Airbnb",
+      "5": "Hoteles.com",
+      "6": "Trivago",
+      "7": "Travel",
+      "8": "Skyscanner",
+      "9": "Hopper",
+      "10": "Página web del lugar de alojamiento",
+      "11": "Otro ¿cuál?"
+    }
+  },
+  {
+    "column": "P7574S9",
+    "title": "albergue_refugio_hostal",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Albergue /refugio/\nhostal 1. Si 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7574S9A1",
+    "title": "n_noches_albergue_refugio_hostal",
+    "numeric": "true",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Albergue /refugio/\nhostal No.Noches"
+  },
+  {
+    "column": "P7574S9A2",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Albergue /refugio/\nhostal 1. Si 2. No"
+  },
+  {
+    "column": "P1939",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Albergue /refugio/\nhostal 1. Si 2. No"
+  },
+  {
+    "column": "P1939S1",
+    "title": "lugar_reserva_albergue_refugio_hostal",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Albergue /refugio/\nhostal a. Booking b. Agora c.\nKayak d. Airbnb e. Hoteles.com f.\nTrivago g. Travel h. Skyscanner i.\nHopper j. Página web del lugar\nde alojamiento k. Otro ¿cuál?",
+      "options": {
+        "1": "Booking",
+        "2": "Agora",
+        "3": "Kayak",
+        "4": "Airbnb",
+        "5": "Hoteles.com",
+        "6": "Trivago",
+        "7": "Travel",
+        "8": "Skyscanner",
+        "9": "Hopper",
+        "10": "Página web del lugar de alojamiento",
+        "11": "Otro ¿cuál?"
+      }
+  },
+  {
+    "column": "P7574S10",
+    "title": "alojamiento_rural",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Alojamiento rural 1. Si\n2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7574S10A1",
+    "title": "n_noches_alojamiento_rural",
+    "numeric": "true",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Alojamiento rural No.\nNoches"
+  },
+  {
+    "column": "P7574S10A2",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Alojamiento rural 1. Si\n2. No"
+  },
+  {
+    "column": "P1940",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Alojamiento rural 1. Si\n2. No"
+  },
+  {
+    "column": "P1940S1",
+    "title": "lugar_reserva_alojamiento_rural",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Alojamiento rural a.\nBooking b. Agora c. Kayak d.\nAirbnb e. Hoteles.com f. Trivago\ng. Travel h. Skyscanner i.\nHopper j. Página web del lugar\nde alojamiento k. Otro ¿cuál?",
+      "options": {
+        "1": "Booking",
+        "2": "Agora",
+        "3": "Kayak",
+        "4": "Airbnb",
+        "5": "Hoteles.com",
+        "6": "Trivago",
+        "7": "Travel",
+        "8": "Skyscanner",
+        "9": "Hopper",
+        "10": "Página web del lugar de alojamiento",
+        "11": "Otro ¿cuál?"
+      }
+  },
+  {
+    "column": "P7574S3",
+    "title": "campamento_camping",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Campamento o\ncamping 1. Si 2. no"
+  },
+  {
+    "column": "P7574S3A1",
+    "title": "n_noches_campamento_camping",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Campamento o\ncamping No. Noches"
+  },
+  {
+    "column": "P7574S3A2",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Campamento o\ncamping 1. Si 2. No"
+  },
+  {
+    "column": "P1941",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Campamento o\ncamping 1. Si 2. No"
+  },
+  {
+    "column": "P1941S1",
+    "title": "lugar_reserva_campamento_camping",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Campamento o\ncamping a. Booking b. Agora c.\nKayak d. Airbnb e. Hoteles.com f.\nTrivago g. Travel h. Skyscanner i.\nHopper j. Página web del lugar\nde alojamiento k. Otro ¿cuál?",
+      "options": {
+        "1": "Booking",
+        "2": "Agora",
+        "3": "Kayak",
+        "4": "Airbnb",
+        "5": "Hoteles.com",
+        "6": "Trivago",
+        "7": "Travel",
+        "8": "Skyscanner",
+        "9": "Hopper",
+        "10": "Página web del lugar de alojamiento",
+        "11": "Otro ¿cuál?"
+      }
+  },
+  {
+    "column": "P7574S11",
+    "title": "posada_turistica",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística 1. Si 2.\nNo"
+  },
+  {
+    "column": "P7574S11A1",
+    "title": "n_noches_posada_turistica",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística No.\nNoches"
+  },
+  {
+    "column": "P7574S11A2",
+    "title": "registro_hospedaje_posada_turistica",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística 1. Si 2.\nNo En el alojamiento le\nsolicitaron información para\ndiligenciar un registro de\nhospedaje (tarjeta de registro)",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P1942",
+    "title": "registro_online_posada_turistica",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística 1. Si 2.\nNo ¿Realizó la reserva por medio\nde alguna aplicación o página\nweb?"
+  },
+  {
+    "column": "P1942S1",
+    "title": "lugar_reserva_posada_turistica",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística a.\nBooking b. Agora c. Kayak d.\nAirbnb e. Hoteles.com f. Trivago\ng. Travel h. Skyscanner i.\nHopper j. Página web del lugar\nde alojamiento k. Otro ¿cuál?",
+      "options": {
+        "1": "Booking",
+        "2": "Agora",
+        "3": "Kayak",
+        "4": "Airbnb",
+        "5": "Hoteles.com",
+        "6": "Trivago",
+        "7": "Travel",
+        "8": "Skyscanner",
+        "9": "Hopper",
+        "10": "Página web del lugar de alojamiento",
+        "11": "Otro ¿cuál?"
+      }
+  },
+  {
+    "column": "P7574S7",
+    "title": "hospedaje_otro",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7574S7A2",
+    "title": "n_noches_hospedaje_otro",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro 1. Si 2. No No\nNoches"
+  },
+  {
+    "column": "P7574S7A3",
+    "title": "registro_hospedaje_otro",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro 1. Si 2. No En el\nalojamiento le solicitaron\ninformación para diligenciar un\nregistro de hospedaje (tarjeta de\nregistro)"
+  },
+  {
+    "column": "P1943",
+    "drop": true,
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro 1. Si 2. No"
+  },
+  {
+    "column": "P1943S1",
+    "title": "lugar_reserva_otro",
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro a. Booking b.\nAgora c. Kayak d. Airbnb e.\nHoteles.com f. Trivago g. Travel\nh. Skyscanner i. Hopper j. Página\nweb del lugar de alojamiento k.\nOtro ¿cuál?",
+      "options": {
+        "1": "Booking",
+        "2": "Agora",
+        "3": "Kayak",
+        "4": "Airbnb",
+        "5": "Hoteles.com",
+        "6": "Trivago",
+        "7": "Travel",
+        "8": "Skyscanner",
+        "9": "Hopper",
+        "10": "Página web del lugar de alojamiento",
+        "11": "Otro ¿cuál?"
+      }
+  },
+  {
+    "column": "P7575",
+    "title": "transporte",
+    "description": "¿Cuál fue el principal medio de\ntransporte utilizado para este\núltimo viaje? (En el cual recorrió\nla mayor distancia) 1. Aéreo 2.\nAcuático 3. Terrestre público 4.\nTerrestre particular 5. Otro",
+      "options": {
+        "1": "Aéreo",
+        "2": "Acuático",
+        "3": "Terrestre público",
+        "4": "Terrestre particular",
+        "5": "Otro"
+      }
+  },
+  {
+    "column": "P7576",
+    "title": "paquete_turistico",
+    "description": "En este último viaje, pagó usted\npor paquete turístico? 1. Si 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7576S1",
+    "title": "quien_pago_paquete_turistico",
+    "description": "En este último viaje, pagó usted\npor paquete turístico? ¿Quien\npagó? 1. Usted 2. Usted y\npersonas del hogar 3. Pago\ncompartido con personas de\notros hogares 4. Personas de\notros hogares 5 .Otras personas\ndel hogar",
+      "options": {
+        "1": "Usted",
+        "2": "Usted y personas del hogar",
+        "3": "Pago compartido con personas de otros hogares",
+        "4": "Personas de otros hogares",
+        "5": "Otras personas del hogar",
+        "6": "No aplica"
+      }
+  },
+  {
+    "column": "P7576S2",
+    "title": "n_personas_paquete_turistico",
+    "description": "En este último viaje, pag ó usted\npor paquete turístico? # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7576S3",
+    "title": "n_valor_paquete_turistico",
+    "description": "En este último viaje, pagó usted\npor paquete turístico? Cuánto\npagó o pagaron por ese paquete\nturístico"
+  },
+  {
+    "column": "P7576S5",
+    "title": "n_estimado_valor_paquete_turistico",
+    "description": "En este último viaje, pagó usted\npor paquete turístico? Si tuviera\nque pagarlo en cuánto estimaría\nsu valor"
+  },
+  {
+    "column": "P7577S1",
+    "title": "paquete_turistico_alojamiento",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Alojamiento 1.\nSi 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7577S2",
+    "title": "paquete_turistico_transporte",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Transporte\n(hacia y desde el destino) 1. Si 2.\nNo",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7577S3",
+    "title": "paquete_turistico_alimentos",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Alimentos y\nbebidas 1. Si 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7577S4",
+    "title": "paquete_turistico_tours",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Tours 1. Si 2.\nNo",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7577S5",
+    "title": "paquete_turistico_seguros",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Seguros 1. Si\n2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7577S7",
+    "title": "paquete_turistico_actividades",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Actividades\nrecreativas, culturales y\ndeportivas 1. Si 2. No",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7577S6",
+    "title": "paquete_turistico_otros",
+    "description": "¿Qué servicios incluyó el\npaquete turístico? Otros 1. Si 2.\nNo",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
+  },
+  {
+    "column": "P7578",
+    "title": "n_costo_total",
+    "description": "¿Cuál fue el monto total de\ngastos para este último viaje?\nEn caso de haber pagado por\npaquete turístico por favor\nincluirlo en el total."
+  },
+  {
+    "column": "P1944",
+    "title": "departamento_destino_2",
+    "drop": true,
+    "description": "¿Cúal fué el principal destino de\nviaje visitado dentro del país\ndurante los ultimos 12 meses?\nDepartamento"
+  },
+  {
+    "column": "P1945",
+    "title": "municipio_destino_2",
+    "drop": true,
+    "description": "¿Cúal fué el principal destino de\nviaje visitado dentro del país\ndurante los ultimos 12 meses?\nMunicipio"
+  },
+  {
+    "column": "P7578S2",
+    "title": "n_viajes_dentro_pais_2",
+    "drop": true,
+    "description": "¿Cúal fué el principal destino de\nviaje visitado dentro del país\ndurante los ultimos 12 meses?\n¿cuántos viajes?"
+  },
+  {
+    "column": "P7579",
+    "title": "motivo_no_viaje",
+    "drop": true,
+    "description": "¿Cuál fue el motivo principal por\nel que no realizó viajes el mes\nanterior, pasando mínimo una\nnoche fuera de su residencia\nhabitual? 1. No estaba\ninteresado 2. Motivos\neconómicos 3. Viajar le parece\ncostoso 4. No tenía tiempo 5.\nFactores climáticos 6. Por\nrazones de seguridad 7. Otro",
+    "options": {
+      "1": "No estaba interesado",
+      "2": "Motivos económicos",
+      "3": "Viajar le parece costoso",
+      "4": "No tenía tiempo",
+      "5": "Factores climáticos",
+      "6": "Por razones de seguridad",
+      "7": "Otro"
+    }
+  },
+  {
+    "column": "P7581S1",
+    "title": "gastos_viaje_alojamiento",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alojamiento 1. Si\n2. No 9. No sabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S1A1",
+    "title": "n_gastos_viaje_alojamiento",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alojamiento\nValor (pesos)"
+  },
+  {
+    "column": "P7581S1A2",
+    "title": "n_gastos_viaje_alojamiento_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alojamiento # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7581S1A3",
+    "title": "n_gastos_viaje_alojamiento_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alojamiento\ncuanto tendria que pagar si lo\nfuera a comprar"
+  },
+  {
+    "column": "P7581S10",
+    "title": "gastos_viaje_transporte_terrestre",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\nterrestre (hacia y desde el\ndestino) 1. Si 2. No 9. No sabe\nno responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S10A1",
+    "title": "n_gastos_viaje_transporte_terrestre",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\nterrestre (hacia y desde el\ndestino) Valor (pesos)"
+  },
+  {
+    "column": "P7581S10A2",
+    "title": "n_gastos_viaje_transporte_terrestre_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\nterrestre (hacia y desde el\ndestino) # de personas a las\ncuales corresponde el gasto"
+  },
+  {
+    "column": "P7581S10A3",
+    "title": "n_gastos_viaje_transporte_terrestre_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\nterrestre (hacia y desde el\ndestino) cuanto tendria que\npagar si lo fuera a comprar"
+  },
+  {
+    "column": "P7581S11",
+    "title": "gastos_viaje_bienes_reventa",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Gastos en bienes\npara la reventa 1. Si 2. No 9. No\nsabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S11A2",
+    "title": "n_gastos_viaje_bienes_reventa_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Gastos en bienes\npara la reventa cuanto tendria\nque pagar si lo fuera a comprar"
+  },
+  {
+    "column": "P7581S11A1",
+    "title": "n_gastos_viaje_bienes_reventa",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Gastos en bienes\npara la reventa Valor"
+  },
+  {
+    "column": "P7581S3",
+    "title": "gastos_viaje_transporte_publico",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\npúblico en el lugar visitado 1. Si\n2. No 9. No sabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S3A1",
+    "title": "n_gastos_viaje_transporte_publico",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\npúblico en el lugar visitado Valor\n(pesos)"
+  },
+  {
+    "column": "P7581S3A2",
+    "title": "n_gastos_viaje_transporte_publico_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\npúblico en el lugar visitado # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7581S3A3",
+    "title": "n_gastos_viaje_transporte_publico_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\npúblico en el lugar visitado\ncuanto tendria que pagar si lo\nfuera a comprar"
+  },
+  {
+    "column": "P7581S4",
+    "title": "gastos_viaje_alimentos",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alimentos y\nbebidas 1. Si 2. No 9. No sabe no\nresponde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S4A1",
+    "title": "n_gastos_viaje_alimentos",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alimentos y\nbebidas Valor (pesos)"
+  },
+  {
+    "column": "P7581S4A2",
+    "title": "n_gastos_viaje_alimentos_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alimentos y\nbebidas # de personas a las\ncuales corresponde el gasto"
+  },
+  {
+    "column": "P7581S4A3",
+    "title": "n_gastos_viaje_alimentos_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alimentos y\nbebidas cuanto tendria que\npagar si lo fuera a comprar"
+  },
+  {
+    "column": "P7581S5",
+    "title": "gastos_viaje_bienes_personal",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Bienes de uso\npersonal 1. Si 2. No 9. No sabe\nno responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S5A1",
+    "title": "n_gastos_viaje_bienes_personal",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Bienes de uso\npersonal Valor (pesos)"
+  },
+  {
+    "column": "P7581S5A2",
+    "title": "n_gastos_viaje_bienes_personal_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Bienes de uso\npersonal # de personas a las\ncuales corresponde el gasto"
+  },
+  {
+    "column": "P7581S5A3",
+    "title": "n_gastos_viaje_bienes_personal_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Bienes de uso\npersonal cuanto tendria que\npagar si lo fuera a comprar"
+  },
+  {
+    "column": "P7581S6",
+    "title": "gastos_viaje_servicios_culturales",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Servicios\nculturales y recreacionales 1. Si\n2. No 9. No sabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S6A1",
+    "title": "n_gastos_viaje_servicios_culturales",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Servicios\nculturales y recreacionales Valor\n(pesos)"
+  },
+  {
+    "column": "P7581S6A2",
+    "title": "n_gastos_viaje_servicios_culturales_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Servicios\nculturales y recreacionales # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7581S6A3",
+    "title": "n_gastos_viaje_servicios_culturales_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Servicios\nculturales y recreacionales\ncuanto tendria que pagar si lo\nfuera a comprar"
+  },
+  {
+    "column": "P7581S7",
+    "title": "gastos_viaje_souvenirs",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Souvenirs,\nartesanías, regalos 1. Si 2. No 9.\nNo sabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S7A1",
+    "title": "n_gastos_viaje_souvenirs",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Souvenirs,\nartesanías, regalos Valor (pesos)"
+  },
+  {
+    "column": "P7581S7A2",
+    "title": "n_gastos_viaje_souvenirs_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Souvenirs,\nartesanías, regalos # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7581S7A3",
+    "title": "n_gastos_viaje_souvenirs_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Souvenirs,\nartesanías, regalos cuanto\ntendria que pagar si lo fuera a\ncomprar"
+  },
+  {
+    "column": "P7581S8",
+    "title": "gastos_viaje_otros",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Otros gastos\nrelacionados con el viaje 1. Si 2.\nNo 9. No sabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S8A1",
+    "title": "n_gastos_viaje_otros",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Otros gastos\nrelacionados con el viaje Valor\n(pesos)"
+  },
+  {
+    "column": "P7581S8A2",
+    "title": "n_gastos_viaje_otros_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Otros gastos\nrelacionados con el viaje # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7581S8A3",
+    "title": "n_gastos_viaje_otros_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Otros gastos\nrelacionados con el viaje cuanto\ntendria que pagar si lo fuera a\ncomprar"
+  },
+  {
+    "column": "P7581S9",
+    "title": "gastos_viaje_transporte_aereo",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte aéreo\n(hacia y desde el destino) 1. Si 2.\nNo 9. No sabe no responde",
+    "options": {
+      "1": "Si",
+      "2": "No",
+      "9": "No sabe no responde"
+    }
+  },
+  {
+    "column": "P7581S9A1",
+    "title": "n_gastos_viaje_transporte_aereo",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte aéreo\n(hacia y desde el destino) Valor"
+  },
+  {
+    "column": "P7581S9A2",
+    "title": "n_gastos_viaje_transporte_aereo_personas",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte aéreo\n(hacia y desde el destino) # de\npersonas a las cuales\ncorresponde el gasto"
+  },
+  {
+    "column": "P7581S9A3",
+    "title": "n_gastos_viaje_transporte_aereo_estimado",
+    "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte aéreo\n(hacia y desde el destino)\ncuanto tendria que pagar si lo\nfuera a comprar"
+  },
+  {
+    "column": "P549",
+    "title": "fecha_inicio",
+    "description": "¿Cuál fue la fecha de inicio y\nterminación del último viaje que\nrealizó el mes pasado dentro del\npais? Fecha de inicio"
+  },
+  {
+    "column": "P549S1",
+    "title": "fecha_fin",
+    "description": "¿Cuál fue la fecha de inicio y\nterminación del último viaje que\nrealizó el mes pasado dentro del\npais? Fecha de terminación"
+  }
+ ]
+ 
