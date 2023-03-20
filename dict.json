@@ -452,7 +452,11 @@
   {
     "column": "P1942",
     "title": "registro_online_posada_turistica",
-    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística 1. Si 2.\nNo ¿Realizó la reserva por medio\nde alguna aplicación o página\nweb?"
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Posada turística 1. Si 2.\nNo ¿Realizó la reserva por medio\nde alguna aplicación o página\nweb?",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
   },
   {
     "column": "P1942S1",
