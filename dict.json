@@ -168,7 +168,7 @@
   },
   {
     "column": "P7574S1A1",
-    "title": "n_segunda_vivienda",
+    "title": "n_noches_segunda_vivienda",
     "numeric": "true",
     "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Segunda vivienda No.\nNoches"
   },
@@ -183,7 +183,7 @@
   },
   {
     "column": "P7574S5A1",
-    "title": "n_vivienda_familiares",
+    "title": "n_noches_vivienda_familiares",
     "numeric": "true",
     "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda familiares o\namigos No. Noches"
   },
@@ -239,7 +239,7 @@
   },
   {
     "column": "P7574S8A1",
-    "title": "n_vivienda_turistica",
+    "title": "n_noches_vivienda_turistica",
     "numeric": "true",
     "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Vivienda turística\n(apartamentos turísticos, casas\nparticulares) No. Noches"
   },
