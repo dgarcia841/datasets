@@ -493,7 +493,11 @@
   {
     "column": "P7574S7A3",
     "title": "registro_hospedaje_otro",
-    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro 1. Si 2. No En el\nalojamiento le solicitaron\ninformación para diligenciar un\nregistro de hospedaje (tarjeta de\nregistro)"
+    "description": "¿En dónde se alojó la mayor\nparte del tiempo durante el\núltimo viaje y cuántas noches\npasó allí? Otro 1. Si 2. No En el\nalojamiento le solicitaron\ninformación para diligenciar un\nregistro de hospedaje (tarjeta de\nregistro)",
+    "options": {
+      "1": "Si",
+      "2": "No"
+    }
   },
   {
     "column": "P1943",
