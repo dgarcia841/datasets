@@ -689,7 +689,7 @@
   },
   {
     "column": "P7581S1A2",
-    "title": "n_gastos_viaje_alojamiento_personas",
+    "title": "n_personas_viaje_alojamiento",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alojamiento # de\npersonas a las cuales\ncorresponde el gasto"
   },
   {
@@ -714,7 +714,7 @@
   },
   {
     "column": "P7581S10A2",
-    "title": "n_gastos_viaje_transporte_terrestre_personas",
+    "title": "n_personas_viaje_transporte_terrestre",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\nterrestre (hacia y desde el\ndestino) # de personas a las\ncuales corresponde el gasto"
   },
   {
@@ -759,7 +759,7 @@
   },
   {
     "column": "P7581S3A2",
-    "title": "n_gastos_viaje_transporte_publico_personas",
+    "title": "n_personas_viaje_transporte_publico",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte\npúblico en el lugar visitado # de\npersonas a las cuales\ncorresponde el gasto"
   },
   {
@@ -784,7 +784,7 @@
   },
   {
     "column": "P7581S4A2",
-    "title": "n_gastos_viaje_alimentos_personas",
+    "title": "n_personas_viaje_alimentos",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Alimentos y\nbebidas # de personas a las\ncuales corresponde el gasto"
   },
   {
@@ -809,7 +809,7 @@
   },
   {
     "column": "P7581S5A2",
-    "title": "n_gastos_viaje_bienes_personal_personas",
+    "title": "n_personas_viaje_bienes_personal",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Bienes de uso\npersonal # de personas a las\ncuales corresponde el gasto"
   },
   {
@@ -834,7 +834,7 @@
   },
   {
     "column": "P7581S6A2",
-    "title": "n_gastos_viaje_servicios_culturales_personas",
+    "title": "n_personas_viaje_servicios_culturales",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Servicios\nculturales y recreacionales # de\npersonas a las cuales\ncorresponde el gasto"
   },
   {
@@ -859,7 +859,7 @@
   },
   {
     "column": "P7581S7A2",
-    "title": "n_gastos_viaje_souvenirs_personas",
+    "title": "n_personas_viaje_souvenirs",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Souvenirs,\nartesanías, regalos # de\npersonas a las cuales\ncorresponde el gasto"
   },
   {
@@ -884,7 +884,7 @@
   },
   {
     "column": "P7581S8A2",
-    "title": "n_gastos_viaje_otros_personas",
+    "title": "n_personas_viaje_otros",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Otros gastos\nrelacionados con el viaje # de\npersonas a las cuales\ncorresponde el gasto"
   },
   {
@@ -909,7 +909,7 @@
   },
   {
     "column": "P7581S9A2",
-    "title": "n_gastos_viaje_transporte_aereo_personas",
+    "title": "n_personas_viaje_transporte_aereo",
     "description": "Señor(a) <...> por favor me\nindica el monto total de los\ngastos de viaje Transporte aéreo\n(hacia y desde el destino) # de\npersonas a las cuales\ncorresponde el gasto"
   },
   {
